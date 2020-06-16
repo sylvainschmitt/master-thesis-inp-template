@@ -1,0 +1,6 @@
+book_filename: "memoire"
+output_dir: "docs"
+language:
+  ui:
+    edit: Edit
+    chapter_name: ""

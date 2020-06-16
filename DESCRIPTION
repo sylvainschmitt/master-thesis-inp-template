@@ -1,0 +1,5 @@
+Package: master-thesis-inp-template
+Title: Master thesis INP-HB template
+Version: 0.0.1
+Imports: bookdown
+Remotes: rstudio/bookdown

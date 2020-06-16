@@ -1,0 +1,10 @@
+```{r mmsetup, include=FALSE}
+rm(list = ls()) ; invisible(gc()) ; set.seed(42)
+library(knitr)
+library(tidyverse)
+library(ggrepel)
+library(bayesplot)
+opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
+```
+
+# Matériel et Méthodes

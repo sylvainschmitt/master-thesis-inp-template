@@ -1,0 +1,21 @@
+--- 
+title: "Master thesis"
+author: "Kouassi KONE"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook
+csl: bibliography/oikos.csl
+bibliography: bibliography/library.bib
+link-citations: yes
+colorlinks: yes
+always_allow_html: yes
+---
+
+`r if (knitr:::is_html_output()) '# Preface {-}'`
+
+`r if (knitr:::is_html_output()) 'Ceci est la version html du modèle de mémoire de master de l\'INP-HB.'`
+
+`r if (knitr:::is_html_output()) 'Bonne lecture à vous.'`
+
+`r if (knitr:::is_html_output()) '<div align="right">  *Kouassi KONE*'`
