@@ -1,7 +1,19 @@
 --- 
-title: "Master thesis"
+title: "Titre du stage"
 author: "Kouassi KONE"
-date: "`r Sys.Date()`"
+date: "Jour Mois Année"
+jury:
+  - name: "Dr Bruno HÉRAULT"
+    role: "Tuteur de stage"
+  - name: "Dr Koffi TRAORE"
+    role: "Examinateur"
+  - name: "Dr Yao MENSA"
+    role: "Examinateur"
+  - name: "Dr Irie Casimir ZOBI"
+    role: "Enseignant-réferent"
+epigraph: 
+  text: "Une citation."
+  author: "Un illustre inconnu"
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook

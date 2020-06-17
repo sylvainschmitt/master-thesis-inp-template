@@ -8,8 +8,8 @@ bookdown::gitbook:
       after: |
     download: ["pdf"]
 bookdown::pdf_book:
-  includes:
-    before_body: latex/title.tex
+#  includes:
+#    before_body: latex/title.tex
   template: latex/template.tex
   keep_tex: yes
 

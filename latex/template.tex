@@ -133,6 +133,11 @@ $endif$
 % citations
 \usepackage{epigraph}
 
+% language
+\renewcommand{\contentsname}{Table des matières}
+\renewcommand{\listfigurename}{Liste des figures}
+\renewcommand{\listtablename}{Liste des tables}
+
 %%% BODY %%%
 \begin{document}
 
@@ -140,6 +145,42 @@ $endif$
 $for(include-before)$
   $include-before$
 $endfor$
+
+% First page
+\includegraphics[width=0.3\columnwidth]{images/INPHB.png}
+
+\begin{center}
+  \vspace*{\stretch{1}}
+  \LARGE{\textbf{Mémoire de stage}} \\
+  \vspace*{\fill}
+  \large{présenté par} \\
+  \large{$author$} \\
+  \vspace*{\fill}
+  \large{pour obtenir le diplôme national de XX} \\
+  \large{mention X, X, X} \\
+  \small{parcours XXX} \\
+  \vspace*{\fill}
+  \large{Sujet :} \\
+  \Large{\textbf{$title$}} \\
+  \vspace*{\fill}
+  \large{soutenu publiquement le $date$} \\
+  \large{à Yamoussoukro} \\
+  \vspace*{\fill}
+  \large{devant le jury suivant :} \\
+  \vspace*{\fill}
+  $for(jury)$
+    $jury.name$ \emph{$jury.role$} \\
+  $endfor$
+  \vspace*{\stretch{1}}
+\end{center}
+
+% Second page
+\newpage
+\vspace*{\fill}
+\epigraph{$epigraph.text$}{\textit{$epigraph.author$}}
+\vspace*{\fill}
+\emph{Les opinions émises par les auteurs sont personnelles et n'engagent pas l'INP-HB.}
+\newpage
 
 \tableofcontents
 \listoftables

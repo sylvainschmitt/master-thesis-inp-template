@@ -4,3 +4,6 @@
 _publish.R
 _book
 _bookdown_files
+libs/
+docs/memoire.tex
+master-thesis-inp-template.html
