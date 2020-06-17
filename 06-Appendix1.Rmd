@@ -1,3 +1,12 @@
+```{r a1setup, include=FALSE}
+rm(list = ls()) ; invisible(gc()) ; set.seed(42)
+library(knitr)
+library(tidyverse)
+opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
+```
+
 # (APPENDIX) Appendix {-} 
 
 # Appendice 1: XX
+
+Rajoutez ici tout ce que vous n'avez pu rentrer dans vos 40 pages.

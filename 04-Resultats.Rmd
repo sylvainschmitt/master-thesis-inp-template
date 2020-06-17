@@ -2,9 +2,29 @@
 rm(list = ls()) ; invisible(gc()) ; set.seed(42)
 library(knitr)
 library(tidyverse)
-library(ggrepel)
-library(bayesplot)
 opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
 ```
 
 # Résultats
+
+Écrivez ici vos résultats. Les conseils précédents sont toujours valident. Vous pouvez faire une figure et une table avec les codes suivant tout en y faisant référence, voir table \@ref(tab:tab1) et figure \@ref(fig:fig1).
+
+```{r tab1}
+starwars %>% 
+  sample_n(20) %>% 
+  dplyr::select(name, height, mass, species) %>% 
+  kable(caption = "Quelques informations sur les personnages de starwars.", 
+        format = "pandoc", booktab = T, col.names = c("Nom", "Hauteur", "Poid", "Espèce"))
+```
+
+```{r fig1, fig.cap="Poid, hauteur et espèces pour les personnages de starwars."}
+starwars %>% 
+  filter(mass < 1000) %>% # because of Jabba 
+  ggplot(aes(height, mass, col = species, label = name, group = NA)) +
+  geom_smooth(method = "lm") +
+  geom_point(alpha = 0.5) +
+  ggrepel::geom_text_repel() +
+  xlab("Poid (kg)") + ylab("Hauteur (m)") +
+  scale_color_discrete("Espèce") +
+  theme_bw()
+```

@@ -1,11 +1,11 @@
 [
-["index.html", "Master thesis Preface", " Master thesis Kouassi KONE 2020-06-16 Preface Ceci est la version html du modèle de mémoire de master de l’INP-HB. Bonne lecture à vous. Kouassi KONE "],
-["resume.html", "Résumé", " Résumé "],
-["remerciements.html", "Remerciements", " Remerciements "],
-["introduction.html", "Introduction", " Introduction "],
-["materiel-et-methodes.html", "Matériel et Méthodes", " Matériel et Méthodes "],
-["resultats.html", "Résultats", " Résultats "],
-["discussion.html", "Discussion", " Discussion "],
-["appendix-1-xx.html", "Appendix 1: XX", " Appendix 1: XX "],
-["references.html", "References", " References "]
+["index.html", "Titre du stage Preface", " Titre du stage Kouassi KONE Jour Mois Année Preface Ceci est la version html du modèle de mémoire de master de l’INP-HB. Bonne lecture à vous. Kouassi KONE "],
+["resume.html", "Résumé", " Résumé Écrivez ici le résumé de votre mémoire. "],
+["remerciements.html", "Remerciements", " Remerciements Rermerciez ici ceux qui le mérite. "],
+["introduction.html", "Introduction", " Introduction Écrivez ici votre introduction. Utilisez de préférence un gestionaire de référence, comme Mendeley ou Zotero. Connectez votre gestionnaire de référence à bookdown via le fichier bibliography défini dans le YAML du ficher index.Rmd. Utilisez ensuite l’Addin citr pour insérer une citation dans votre texte. Soit avec le menu Addins dans Rstudio soit en rajoutant un racccourcit clavier à Rstudio pour les citations. Par exemple je cite ici un atricle de Bruno dans le texte (Hérault et al. 2011), ou je fais directement référence à un travail Kattge et al. (2020) sans parenthèses. References "],
+["materiel-et-methodes.html", "Matériel et Méthodes", " Matériel et Méthodes Écrivez ici votre matériel et méthode. Les blocs de codes peuvent être caché comme ci dessous. Mais les valeurs utilisées dans le texte : 1 + 1 = 2. Je conseille globalement de mettre un bloc de code d’initialisation qui nettoie l’environnement pour que chaque chapitre soit indépendant. Vous pouvez utiliser l’environnement latex maths pour écrire des équations en ligne : \\(1+1=2\\) ou utiliser un envrionnement d’équations plus développé pour faire référence aux équations plus tard, voir équation (1). \\[\\begin{equation} NCI_i = \\sum _{j|\\delta_{i,j}&lt;20m} ^{J_i} DBH_j ^2 e^{-\\frac{1}{4}\\delta_{i,j}} \\tag{1} \\end{equation}\\] Je présente les tables et les figures dans le prochain document. "],
+["resultats.html", "Résultats", " Résultats Écrivez ici vos résultats. Les conseils précédents sont toujours valident. Vous pouvez faire une figure et une table avec les codes suivant tout en y faisant référence, voir table 1 et figure 1. Table 1: Quelques informations sur les personnages de starwars. Nom Hauteur Poid Espèce Ki-Adi-Mundi 198 82 Cerean Bail Prestor Organa 191 NA Human Lobot 175 79 Human Wat Tambor 193 48 Skakoan Jek Tono Porkins 180 110 Human Padmé Amidala 165 45 Human Ben Quadinaros 163 65 Toong Lando Calrissian 177 79 Human Jocasta Nu 167 NA Human Ric Olié 183 NA NA Palpatine 170 75 Human Ackbar 180 83 Mon Calamari R2-D2 96 32 Droid Shmi Skywalker 163 NA Human Mon Mothma 150 NA Human Rugor Nass 206 NA Gungan Leia Organa 150 49 Human Jar Jar Binks 196 66 Gungan San Hill 191 NA Muun Cordé 157 NA Human Figure 1: Poid, hauteur et espèces pour les personnages de starwars. "],
+["discussion.html", "Discussion", " Discussion Écrivez ici votre discussion. "],
+["appendice-1-xx.html", "Appendice 1: XX", " Appendice 1: XX Rajoutez ici tout ce que vous n’avez pu rentrer dans vos 40 pages. "],
+["references.html", "Références", " Références "]
 ]

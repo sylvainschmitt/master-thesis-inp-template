@@ -2,9 +2,26 @@
 rm(list = ls()) ; invisible(gc()) ; set.seed(42)
 library(knitr)
 library(tidyverse)
-library(ggrepel)
-library(bayesplot)
 opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
 ```
 
 # Matériel et Méthodes
+
+Écrivez ici votre matériel et méthode. Les blocs de codes peuvent être caché comme ci dessous. 
+
+```{r bloc1}
+a <- 1 + 1
+```
+
+Mais les valeurs utilisées dans le texte : 1 + 1 = `r a`. 
+
+Je conseille globalement de mettre un bloc de code d'initialisation qui nettoie l'environnement pour que chaque chapitre soit indépendant.
+
+Vous pouvez utiliser l'environnement latex maths pour écrire des équations en ligne : $1+1=2$ ou utiliser un envrionnement d'équations plus développé pour faire référence aux équations plus tard, voir équation \@ref(eq:eq1).
+
+\begin{equation}
+    NCI_i = \sum _{j|\delta_{i,j}<20m} ^{J_i} DBH_j ^2 e^{-\frac{1}{4}\delta_{i,j}}
+   (\#eq:eq1)
+\end{equation}
+
+Je présente les tables et les figures dans le prochain document.
