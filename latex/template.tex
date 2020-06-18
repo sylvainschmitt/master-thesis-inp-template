@@ -5,8 +5,10 @@
 
 %%% PACKAGES %%%
 
-% fonts
-\usepackage{lmodern}
+% fontsl
+% unfortunately INPHB is asking for times new roman
+\usepackage{times} 
+% \usepackage{lmodern}
 
 % pdf
 \usepackage{pdfpages}
@@ -123,8 +125,12 @@ $if(verbatim-in-note)$
 $endif$
 
 % geometry
-\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
-\renewcommand{\baselinestretch}{1.1}
+\usepackage[left=2.5cm,right=2.5cm,top=1.5cm,bottom=2cm]{geometry}
+\renewcommand{\baselinestretch}{1.5}
+
+% multiple columns and boxes for title page
+\usepackage{multicol}
+\usepackage{fancybox,framed}
 
 % Bibliography
 \usepackage{natbib}
@@ -142,35 +148,43 @@ $endif$
 \begin{document}
 
 % First pages
-$for(include-before)$
-  $include-before$
-$endfor$
+% $for(include-before)$
+%   $include-before$
+% $endfor$
 
 % First page
-\includegraphics[width=0.3\columnwidth]{images/INPHB.png}
 
 \begin{center}
   \vspace*{\stretch{1}}
-  \LARGE{\textbf{Mémoire de stage}} \\
+  \small{\textbf{REPUBLIQUE DE CÔTE D'IVOIRE}} \\
+  \includegraphics[width=0.2\columnwidth]{images/union-discipline-travail.png} \\
+  \scriptsize{\textbf{Union-Discipline-Travail}} \\
+  \small{\textbf{MINISTERE DE L'ENSEIGNEMENT SUPERIEUR ET DE LA RECHERCHE SCIENTIFIQUE}} \\
+  \includegraphics[]{images/INPHB.png}
+  \textbf{É}COLE \textbf{S}UPÉRIEURE D’\textbf{A}GRONOMIE \textbf{(ESA)} \\
+  \small{Cycle des Ingénieurs Agronomes} \\
   \vspace*{\fill}
-  \large{présenté par} \\
-  \large{$author$} \\
+  \Large{\textbf{MÉMOIRE DE FIN D’ÉTUDES}} \\
+  \small{Pour l’obtention du \textbf{D}iplôme d’\textbf{A}gronomie \textbf{A}pprofondie (\textbf{D.A.A})} \\
   \vspace*{\fill}
-  \large{pour obtenir le diplôme national de XX} \\
-  \large{mention X, X, X} \\
-  \small{parcours XXX} \\
+  Option : \textbf{$option$} \\
   \vspace*{\fill}
-  \large{Sujet :} \\
-  \Large{\textbf{$title$}} \\
+  Thème : \\
+  \doublebox{\parbox{0.9\columnwidth}{\center{\Large{\textbf{$title$}}}}} \\
   \vspace*{\fill}
-  \large{soutenu publiquement le $date$} \\
-  \large{à Yamoussoukro} \\
+  \small{\underline{\textbf{Présenté par}}} \\
+  \small{\textbf{$author$}} \\
+  \small{Élève Ingénieur $type$ de la $promotion$\textsuperscript{ème} promotion ENSA} \\
   \vspace*{\fill}
-  \large{devant le jury suivant :} \\
+  \begin{multicols}{2}
+    \small{\underline{\textbf{Encadreur pédagogique}}} \\
+    \small{\textbf{$encadreur_pedagogique$}} \\
+    \columnbreak
+    \small{\underline{\textbf{Encadreur de terrain}}} \\
+    \small{\textbf{$encadreur_terrain$}} \\
+  \end{multicols}
   \vspace*{\fill}
-  $for(jury)$
-    $jury.name$ \emph{$jury.role$} \\
-  $endfor$
+  \small{Année académique : $date$} \\
   \vspace*{\stretch{1}}
 \end{center}
 
@@ -182,20 +196,22 @@ $endfor$
 \emph{Les opinions émises par les auteurs sont personnelles et n'engagent pas l'INP-HB.}
 \newpage
 
-\tableofcontents
-\listoftables
-\listoffigures
+% toc, lot, and lof have been moved within the body after summary and before introduction
+% \tableofcontents
+% \listoftables
+% \listoffigures
 
 $body$
 
+% bibliography in the body to be before annexes
 % \addcontentsline{toc}{section}{References}
 \bibliography{$bibliography$}
 % \listoftables
 % \listoffigures
 
 % Last pages
-$for(include-after)$
-  $include-after$
-$endfor$
+% $for(include-after)$
+%   $include-after$
+% $endfor$
 
 \end{document}

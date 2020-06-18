@@ -5,8 +5,8 @@ library(tidyverse)
 opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
 ```
 
-# (APPENDIX) Appendix {-} 
+# (APPENDIX) Annexes {-} 
 
-# Appendice 1: XX
+# Annexe 1: XX
 
 Rajoutez ici tout ce que vous n'avez pu rentrer dans vos 40 pages.

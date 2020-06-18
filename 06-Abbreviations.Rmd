@@ -1,0 +1,6 @@
+# Sigles et abréviations
+
+Décrivez ici vos sigles et abbréviations. Les listes peuvent être utiles :
+
+* __Sigle 1__: signification
+* __Sigle 2__: signification

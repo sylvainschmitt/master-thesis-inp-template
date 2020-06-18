@@ -1,4 +1,6 @@
-# Introduction
+<!-- Ne surtout pas supprimer les 3 lignes ci-dessous, ce sont dans l'ordre (i) la table des matières, (ii) la liste des tables, et (iii) la lliste des figures. -->
+
+# Introduction générale
 
 <!-- Vous pouvez faire des commentaires cachés avec CTRL+SHIFT+C -->
 

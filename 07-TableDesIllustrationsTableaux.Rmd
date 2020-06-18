@@ -1,0 +1,6 @@
+<!-- Ne pas toucher cette page -->
+
+<!-- Ne surtout pas supprimer les 3 lignes ci-dessous, ce sont la liste des tables, et la lliste des figures. -->
+
+\listoftables
+\listoffigures

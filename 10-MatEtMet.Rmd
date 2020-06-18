@@ -5,9 +5,9 @@ library(tidyverse)
 opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
 ```
 
-# Matériel et Méthodes
+# Matériels et Méthodes
 
-Écrivez ici votre matériel et méthode. Les blocs de codes peuvent être caché comme ci dessous. 
+Écrivez ici votre matériels et méthodes. Les blocs de codes peuvent être caché comme ci dessous. 
 
 ```{r bloc1}
 a <- 1 + 1
