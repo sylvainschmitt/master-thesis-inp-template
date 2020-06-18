@@ -1,7 +1,7 @@
 # Master thesis INP template
 
 This is the template developped for master 2 student of the FOREN lab at INP-HB, Yamoussoukro, Ivory Coast.
-You can have a preview of the [html book](https://sylvainschmitt.github.io/master-thesis-inp-template/) and the [pdf book](https://sylvainschmitt.github.io/master-thesis-inp-template/memoire.pdf) here.
+You can have a preview of the [html book](https://sylvainschmitt.github.io/master-thesis-inp-template/) and the [pdf book](https://github.com/sylvainschmitt/master-thesis-inp-template/blob/master/docs/memoire.pdf) here.
 
 ## Prerequesite
 
