@@ -6,5 +6,5 @@
 
 Écrivez ici votre introduction. Utilisez de préférence un gestionaire de référence, comme [Mendeley](https://www.mendeley.com/) ou [Zotero](https://www.zotero.org/). Connectez votre gestionnaire de référence à bookdown via le fichier bibliography défini dans le YAML du ficher `index.Rmd`. Utilisez ensuite l'Addin `citr` pour insérer une citation dans votre texte. Soit avec le menu Addins dans Rstudio soit en rajoutant un racccourcit clavier à Rstudio pour les citations. 
 
-Par exemple je cite ici un atricle de Bruno dans le texte [@herault_functional_2011], ou je fais directement référence à un travail @Kattge2019 sans parenthèses.
+Par exemple je cite ici un atricle de Bruno dans le texte [@herault_functional_2011], ou je fais directement référence à un travail @Schmitt2019 sans parenthèses.
 
