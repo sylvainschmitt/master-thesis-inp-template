@@ -20,6 +20,12 @@ You'll need the following R packages with associated dependencies:
 install.packages(c('rmarkdown', 'bookdown', 'tinytex'))
 ```
 
+You'll need then to install `tinytex` with the following command:
+
+```
+tinytex::install_tinytex()
+```
+
 I also strongly adviced to install the following (besides not mandatory):
 
 * [Mendeley](https://www.mendeley.com/) or [Zotero](https://www.zotero.org/)
