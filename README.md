@@ -70,6 +70,8 @@ epigraph:
 
 Compile the PDF with the build button in Rstudio or CTRL+SHIFT+B.
 
+![Build button](images/build.png)
+
 Start then to write your thesis in the different chapters following examples for titles, references, figures, tables, and cross-referencing.
 
 At any time, compile either the chapter you are writting with the knit button in Rstudio or CTRL+SHIFT+K or the whole mansucript with th build button in Rstudio or CTRL+SHIFT+B.

@@ -23,7 +23,7 @@ starwars %>%
   ggplot(aes(height, mass, col = species, label = name, group = NA)) +
   geom_smooth(method = "lm") +
   geom_point(alpha = 0.5) +
-  ggrepel::geom_text_repel() +
+  # ggrepel::geom_text_repel() +
   xlab("Poid (kg)") + ylab("Hauteur (m)") +
   scale_color_discrete("Espèce") +
   theme_bw()
