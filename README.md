@@ -53,16 +53,12 @@ Start by filling your informations in the `YAML` header of the index [`index.Rmd
 ```
 title: "Titre du stage"
 author: "Kouassi KONE"
-date: "Jour Mois Année"
-jury:
-  - name: "Dr Bruno HÉRAULT"
-    role: "Tuteur de stage"
-  - name: "Dr Koffi TRAORE"
-    role: "Examinateur"
-  - name: "Dr Yao MENSA"
-    role: "Examinateur"
-  - name: "Dr Irie Casimir ZOBI"
-    role: "Enseignant-réferent"
+option: "option"
+type: "Forestier"
+promotion: "y"
+date: "2020"
+encadreur_pedagogique: "Dr Koffi TRAORE"
+encadreur_terrain: "Dr Yao MENSA"
 epigraph: 
   text: "Une citation."
   author: "Un illustre inconnu"
