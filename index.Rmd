@@ -13,7 +13,7 @@ epigraph:
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook
-csl: bibliography/fem.csl
+csl: bibliography/elsevier-harvard.csl
 bibliography: bibliography/library.bib
 link-citations: yes
 colorlinks: yes
