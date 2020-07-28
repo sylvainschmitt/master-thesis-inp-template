@@ -2,6 +2,11 @@
 
 <!-- Vous pouvez faire des commentaires cachés avec CTRL+SHIFT+C -->
 
+```{r exGraph, fig.cap="Legend.", out.width="0.3\\linewidth", fig.align="center", fig.pos="H", echo=F}
+knitr::include_graphics("images/INPHB.png")
+```
+
+
 Écrivez ici votre introduction. Utilisez de préférence un gestionaire de référence, comme [Mendeley](https://www.mendeley.com/) ou [Zotero](https://www.zotero.org/). Connectez votre gestionnaire de référence à bookdown via le fichier bibliography défini dans le YAML du ficher `index.Rmd`. Utilisez ensuite l'Addin `citr` pour insérer une citation dans votre texte. Soit avec le menu Addins dans Rstudio soit en rajoutant un racccourcit clavier à Rstudio pour les citations. 
 
 Par exemple je cite ici un atricle dans le texte [@lambert2005canadian], ou je fais directement référence à un travail @lambert2005canadian sans parenthèses.
