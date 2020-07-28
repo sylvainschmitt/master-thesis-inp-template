@@ -1,5 +1,5 @@
 ```{r a1setup, include=FALSE}
-rm(list = ls()) ; invisible(gc()) ; set.seed(42)
+rm(list = ls())
 library(knitr)
 library(tidyverse)
 opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)

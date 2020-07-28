@@ -4,3 +4,6 @@ Décrivez ici vos sigles et abbréviations. Les listes peuvent être utiles :
 
 * __Sigle 1__: signification
 * __Sigle 2__: signification
+
+1. liste un
+1. liste 2

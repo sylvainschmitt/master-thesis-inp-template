@@ -65,8 +65,6 @@ $endif$
 \providecommand{\tightlist}{%
 \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\setcounter{secnumdepth}{0}
-
 % set default figure placement to htbp
 \makeatletter 
 \def\fps@figure{htbp}
@@ -84,12 +82,13 @@ $endif$
 
 % paragraphs
 % beware this make the toc bug if hyperref is placed before
+\setcounter{secnumdepth}{2}
 \usepackage{titlesec}
 \let\oldsection\section
 \renewcommand\section{\clearpage\oldsection}
-\titleformat{\section}
-{\huge\center\scshape}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
-\titleformat*{\subsection}{\LARGE\bfseries}
+\renewcommand{\thesection}{\Roman{section}}
+\titleformat{\section}[hang]{\huge\center\scshape}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\titleformat{\subsection}[hang]{\LARGE\center\bfseries}{\thesubsection}{1em}{}[]
 \titleformat*{\subsubsection}{\Large\bfseries}
 \titleformat*{\paragraph}{\large\bfseries\itshape}
 \titleformat*{\subparagraph}{\normalsize\itshape}

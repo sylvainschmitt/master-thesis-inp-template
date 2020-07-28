@@ -1,6 +1,6 @@
 --- 
 title: "Titre du stage"
-author: "Kouassi KONE"
+author: "Sylvain SCHMITT"
 option: "option"
 type: "Forestier"
 promotion: "y"

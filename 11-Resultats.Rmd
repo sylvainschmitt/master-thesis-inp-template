@@ -11,7 +11,7 @@ opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6
 
 ```{r tab1}
 starwars %>% 
-  sample_n(20) %>% 
+  sample_n(10) %>% 
   dplyr::select(name, height, mass, species) %>% 
   kable(caption = "Quelques informations sur les personnages de starwars.", 
         format = "pandoc", booktab = T, col.names = c("Nom", "Hauteur", "Poid", "Espèce"))

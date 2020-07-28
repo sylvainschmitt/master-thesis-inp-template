@@ -1,12 +1,12 @@
-# Page liminaire
+# Page liminaire {-}
 
-## Résumé
+## Résumé {-}
 
 Écrivez ici le résumé de votre mémoire en français.
 
 *Mots clés: Écrivez ici les mots clés en français (cinq mots au plus).*
 
-## Abstract
+## Abstract {-}
 
 **Titre en anglais**
 
